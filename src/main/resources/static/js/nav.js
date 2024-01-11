@@ -46,30 +46,30 @@ var navs = [{
             "href" : "/manager/hotelList",
             "spread" : false
         },
-        {
-            "title" : "留言管理",
-            "icon" : "&#xe631;",
-            "href" : "/manager/messageList",
-            "spread" : false
-        },
-        {
-            "title" : "攻略管理",
-            "icon" : "&#xe631;",
-            "href" : "/manager/strategyList",
-            "spread" : false
-        },
+        // {
+        //     "title" : "留言管理",
+        //     "icon" : "&#xe631;",
+        //     "href" : "/manager/messageList",
+        //     "spread" : false
+        // },
+        // {
+        //     "title" : "攻略管理",
+        //     "icon" : "&#xe631;",
+        //     "href" : "/manager/strategyList",
+        //     "spread" : false
+        // },
     {
         "title" : "车票管理",
         "icon" : "&#xe631;",
         "href" : "/manager/carList",
         "spread" : false
     },
-        {
-            "title" : "保险管理",
-            "icon" : "&#xe631;",
-            "href" : "/manager/insuranceList",
-            "spread" : false
-        }
+        // {
+        //     "title" : "保险管理",
+        //     "icon" : "&#xe631;",
+        //     "href" : "/manager/insuranceList",
+        //     "spread" : false
+        // }
 	]
 },{
     "title" : "业务管理",
@@ -85,52 +85,58 @@ var navs = [{
         }
     ]
 },{
-	"title" : "数据分析",
+	"title" : "汇总统计",
 	"icon" : "&#xe600;",
 	"href" : "",
 	"spread" : false,
      "children" : [
-    {
-        "title" : "用户分析",
-        "icon" : "&#xe631;",
-        "href" : "/manager/userData",
-        "spread" : false
-    }, {
-             "title" : "路线分析",
+    // {
+    //     "title" : "用户统计",
+    //     "icon" : "&#xe631;",
+    //     "href" : "/manager/userData",
+    //     "spread" : false
+    // },
+         {
+             "title" : "路线统计",
              "icon" : "&#xe631;",
              "href" : "/manager/travelRouteData",
              "spread" : false
          }, {
-             "title" : "景点分析",
+             "title" : "景点统计",
              "icon" : "&#xe631;",
              "href" : "/manager/scenicSpotData",
              "spread" : false
-         }, {
+         },
+         {
              "title" : "酒店分析",
              "icon" : "&#xe631;",
              "href" : "/manager/hotelData",
              "spread" : false
-         }, {
+         },
+         {
              "title" : "订单分析",
              "icon" : "&#xe631;",
              "href" : "/manager/orderData",
              "spread" : false
-         },{
-             "title" : "攻略分析",
-             "icon" : "&#xe631;",
-             "href" : "/manager/strategyData",
-             "spread" : false
-         },{
+         },
+         // {
+         //     "title" : "攻略分析",
+         //     "icon" : "&#xe631;",
+         //     "href" : "/manager/strategyData",
+         //     "spread" : false
+         // },
+         {
              "title" : "车票分析",
              "icon" : "&#xe631;",
              "href" : "/manager/carData",
              "spread" : false
-         },{
-             "title" : "保险分析",
-             "icon" : "&#xe631;",
-             "href" : "/manager/insuranceData",
-             "spread" : false
          },
+         // {
+         //     "title" : "保险分析",
+         //     "icon" : "&#xe631;",
+         //     "href" : "/manager/insuranceData",
+         //     "spread" : false
+         // },
     ]
 }/*,{
 	"title" : "系统基本参数",
